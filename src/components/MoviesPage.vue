@@ -144,6 +144,11 @@ export default {
       this.currentPage = page;
       this.fetchMovies();
     },
+    getImageUrl(posterPath) {
+      return posterPath
+        ? `http://image.tmdb.org/t/p/w500${posterPath}`
+        : "https://via.placeholder.com/500x750.png?text=No+Image";
+    },
   },
   mounted() {
     this.fetchMovies();
