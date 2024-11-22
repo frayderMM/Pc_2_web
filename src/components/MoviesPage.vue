@@ -145,6 +145,7 @@ export default {
       this.currentPage = page;
       this.fetchMovies();
     },
+    //metodo de obtener img
     getImageUrl(posterPath) {
       return posterPath
         ? `http://image.tmdb.org/t/p/w500${posterPath}`
