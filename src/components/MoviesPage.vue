@@ -121,6 +121,7 @@ export default {
     },
   },
   methods: {
+    //Nuevos metodos
     async fetchMovies() {
       const apiKey =
         "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxYjg4NjVmNDE1MzRjN2VjNzViYjc1MDAzOWVlOTU4NCIsIm5iZiI6MTczMjI0NTA5OS42NzQ5MjM0LCJzdWIiOiI2NzNmNzk5YTYyNWJjMzM4ZGMzOGJiMGYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.9M5Buek1oNOWps7F8uZcsk3KEqjPCba3zRkPhA7525M";
